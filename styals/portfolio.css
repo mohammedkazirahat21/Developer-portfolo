@@ -149,3 +149,18 @@ margin-bottom: 20px;
      margin-top: 50px;
      text-align: center;
 }
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #d89f75;
+    padding: 130px 220px;
+}
+.contact .sec-ti{
+    text-align: left;
+}
+.contact input[type="text"], [type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
